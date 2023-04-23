@@ -2,6 +2,11 @@
 1.) Explain what the simple List component does?
     The simple List component is a React functional component that receives an array of items as a prop, maps over the items to render a list of Single List Items, and 
     tracks the currently selected item's index.
+
+
+
+
+
 2.) What problems / warnings are there with code?
    *   In 'WrappedSingleListItem' , the onClick event handler was incorrect. We need to wrap the 
      callback in an arrow function to prevent it from being executed immediately. We also need to 
@@ -11,6 +16,11 @@
     * In the propTypes definition for 'WrappedListComponent' , ProTypes.array should be changed to PropTypes.arrayOf and PropTypes.shapeOf should be changed to 
        PropTypes.shape
     * In the defaultProps definition for 'WrappedListComponent', i provide a default items value as an array with some sample objects .
+
+
+
+
+
 3.) Here is the optimize code.!
   import React, { useState, useEffect, memo } from 'react';
 import PropTypes from 'prop-types';
