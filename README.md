@@ -22,8 +22,15 @@
 
 
 3.) Here is the optimize code.!
-  import React, { useState, useEffect, memo } from 'react';
-import PropTypes from 'prop-types';
+ 
+ 
+ 
+ 
+ 
+ import React, { useState, useEffect, memo } from 'react';
+ 
+ 
+ import PropTypes from 'prop-types';
 
 // Single List Item
 const WrappedSingleListItem = ({
